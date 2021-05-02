@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This kind of microscopy detects just one signal from a small area in time. Thus, for an image of the entire sample, several measurements have to be taken and merged. 
+However, it is possible to generate images of the interior of the specimen, whereas tirfm only images the boundary region near the cover glass.
+Because only the area within the focal range is investigated, single-molecule investigations are also possible here when using diluted samples. 
+As with tirfm, a dichroic mirror in the detection beam path can be used to measure two signals separately.
+
+
+
+Bei dieser Art der Mikroskopie wird jeweils nur ein einzelnes Signal von einem kleinen Bereich detektiert. Für ein Bild der gesamten Probe müssen also mehrere Messungen durchgeführt und zusammengefügt werden. 
+Dafür ist hier aber möglich, Aufnahmen vom Inneren der Probe zu erzeugen, wohingegen tirfm nur den Grenzbereich am Coverglas abbildet.
+
+
+Dadurch, dass nur der Bereich innerhalb des Fokusbereiches untersucht wird, sind auch hier Einzelmoleküluntersuchungen möglich bei Verwendung von verdünnten Proben. 
+Genau wie bei tirfm kann auch hier ein dichroit im Detectionsstrahlengang verwendet werden um zwei Signale getrennt voneinander zu vermessen.

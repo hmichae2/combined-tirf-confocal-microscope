@@ -1,0 +1,124 @@
+<!doctype html>
+<!-- 
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution 
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="microscope">
+    <meta name="citation_author" content="Boerner Lab">
+    <meta name="citation_publication_date" content="2021-02-05">
+    <title>microscope - Boerner Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please 
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your 
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!-- 
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+<section>
+<h1>Operating principle</h1>
+<p>Fluorescence microscopy is a type of light microscopy in which an excitation light, here a laser is used, is used to excite fluorescence in the sample. These fluorescent light is then detected.Typically, a fluorophor is mixed with the sample s fluorescent medium.
+Fluorescence describes the spontaneous emission of a photon after absorption of a higher energy photon. After the atom absorbs a photon, it enters a higher energy vibronic state. Some of the energy is transferred to the surrounding atoms by internal conversion so that the emitted photon has less energy, resulting in a longer wavelength. This wavelength shift is the so-called Stokes shift.
+In fluorescence microscopy the Stokes-shift is used to separate the beampaths for excitation and detection to prevent the signal from the excitation light. A dichroic mirror is used for this, which is reflective for the excitation light and transmissive for the detection light.
+<!-- 
+There exists different ways to stimulate the sample for fluorescence. The two methods used for this microscope are explained in the following.
+ -->
+Two different approaches of fluorescence microscopy are discribed in the following. These methods differ mainly in stimulation of the fluorescence and consequently in the signal detection.
+
+
+
+<h2>TIRFM</h2>
+<figure style="float: right;">
+<img src="images/setup_tirf.png" width="430" height="264" class="fancybox" align="right" id=1> <!--image-->
+<figcaption><strong>Fig. 1: Beampath of an tirf microscope</strong></figcaption>
+</figure>
+
+<p>In total internal reflection fluorescence microscopy the fluorescence is stimulated by the evanescent field of the reflected beam. 
+The excitation beam is focused on the border area of the aperture in the back focal plane of the objecitve, so the beam propagates as small parrallel beam behind the objective. The focussing on the border area effects in a propagation under an angle. This is the critical angle for total internal reflection so the beam is reflected at the surface between coverslip and sample. The evanescent field intruding in the sample now can stimulate the sample molecules to fluorescence. Then the signal is imaged onto a camera using lenses. A second dichroic mirror can separate two signals from each other, which is particularliy useful für fret applications. 
+ 
+######
+The fluorescence light is collected by the objective, and separated with an dichroic mirror.This is possible because of the stokes shift between the absorbed and emitted light.
+######
+
+Because the evanescent field has just a penetration depth of a few hundred nanometer once can just analize the next molecules to the surface. This property together with the small illuminated area are the main reason for the single molecule microscopy.
+
+
+
+
+<h2>Confocal microscopy</h2>
+
+<figure  style="float: left;">
+<img src="images/setup_confocal.png" width="430" height="203" class="fancybox" id=2> <!--image-->
+<figcaption><strong>Fig. 2: Beampath of an confocal microscope</strong></figcaption>
+</figure>
+
+<p>For confocal measurements the excitation beam gets focused inside the sample, so the fluorophor gets excitated in a larger area to emit light. This light gets collected via the objective and imaged on a diode after passing a telecentric lens system. A telecentric lens system consists of two lenses (L) and a pinhole (PH) located in the common focal plane of both lenses to separate the light emitted inside of the focal area and the light emitted outside of the focal area. <br>
+This kind of microscopy detects just one signal from a small area in time. Thus, for an image of the entire sample, several measurements have to be taken and merged. 
+However, it is possible to generate images of the interior of the specimen, whereas tirfm only images the boundary region near the cover glass.
+Because only the area within the focal range is investigated, single-molecule investigations are also possible here when using diluted samples. 
+As with tirfm, a dichroic mirror in the detection beam path can be used to measure two signals separately.
+
+
+
+
+
+<h2>The combined microscope</h2>
+
+<figure style="float: right;">
+<img src="images/setup_complete.png" width="440" height="550" id=3> <!--image-->
+<figcaption><strong>Fig. 3: Beampath of the designed microscope as combination of tirfm and confocal microscopy</strong></figcaption>
+</figure>
+<!--
+<p>With just a few modifications, it is possible to combine both setups. A positioning of the excitation path on a translation stage and using a removeable tirf lens mount (TL) allows for easy switch between tirf and confocal microscopy. Furthermore, a flipping mirror (FM) is positioned behind the tube lens so both detection paths can remain built. A sketch of the beampath is shown in figure 3.
+-->
+
+
+
+
+<p>With just a few modifications, it is possible to combine both setups. By positioning the excitation path on a translation stage once can shift the laser in horizontal direction. Furthermore, the tirf lens (TL) is removeable. That allows for switching between tirf and confocal microscopy with just two handles. <br>
+A flipping mirror (FM) located behind the tube lens makes it easy to switch between both detection paths. A sketch of the beampath is shown in figure 3.
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
+ 

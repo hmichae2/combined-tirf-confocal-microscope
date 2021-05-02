@@ -1,0 +1,268 @@
+<!doctype html>
+<!-- 
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution 
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="microscope">
+    <meta name="citation_author" content="Boerner Lab">
+    <meta name="citation_publication_date" content="2021-02-05">
+    <title>microscope - Boerner Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please 
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your 
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f255f255f255;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!-- 
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+<section>
+<h1>The microscope</h1>
+
+<p>Fluorescence microscopy is a commonly used technique for analyzing biological samples and molecules and includes some different methods of measurement. Two often used techniques are the total internal reflection fluorescence microscopy (tirfm) and the confocal microscopy. So it is useful to build up a microscope setup which combines these two methods in a space-saving design.
+The main advantages of this setup are
+<br>
+<ul>
+<li>combination of tirf and confocal microscopy
+<li>easy switchable between both with just a few handles
+<li>space saving design
+<li>cost-effective setup
+<li>additionally applications possible like singlemolecule fret-measurements
+</ul>
+
+The design of this microscope setup is based on the <a href="https://hohlbeinlab.github.io/miCube/index.html">micube</a> of Hohlbein et al. We took their concept and optimized it for our application. 
+<br><br>
+The pictures below show the main assembly of the microscope. The cube is the center of the hole microscope and connects the the excitation and detection beampath. A dichroic mirror inside the cube directs the excitation beam to the objective on the top of the cube and the detection beam to the tube lens which is mounted in the attached lensmount. 
+The collimator holder consists of an reflective collimator and a removeable lens which are both attached on a home-build holder and mounted on a translation stage.
+The sample holder positions the sample with his arm over the objective and has a magnetic and removeable inlay. A motorized translation stage allows for precice positioning of the sample in z-direction. For lateral movement the assembly is based on a manual two-axis translation stage.
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="./images/slideshow/cube.png" style="width:100%">
+  <div class="text">cube</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="./images/slideshow/collimator.png" style="width:100%">
+  <div class="text">collimator holder </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="./images/slideshow/sampleholder.png" style="width:100%">
+  <div class="text">sample holder</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+<h1>Microscope components</h1>
+The microscope consists of commercial and home-build components. We tried to build as much as possible by our own to reduce costs, so lots of parts were 3d-printed or built of aluminium. All other parts such as optics and optomechanics were purchased or were already available. A complete list of all used parts together with STL files for the home-build parts can be found <a href="./component_table.html">here</a>. 
+<br><br>
+Notice: Some parts such as objective and camera are very important for a good image so you should take care for a good quality of these components. 
+
+<br><br><br><br>
+
+<!-- 
+
+<p>The miCube consists of roughly 30 components (see exploded view of the miCube below), which can all be 3D printed from plastic, CNC milled from aluminium, or commercially bought. Because no commercial components are used where these are not necessary, the price of the miCube is kept low. Go to the <a href="./component_table.html" target="_self">component list</a> for a detailed view of all components, along with their availability and price.</p>
+<figure id="Figure_exploded" style="max-width:800px;">
+<img src="./images/miCube_exploded_animation/smallSize/exploded_0.png"
+ alt="Figure Exploded" style="padding-left:7%; padding-right:7%; width:86%;" id="Figure_exploded_image" onload="loadExplodedImages()" >
+ 
+<table class="figure_controls">
+  <tr>
+  <td><div class="slidecontainer">
+  <input type="range" min="0" max="20" value="0" class="slider" id="Figure_exploded_period_slider" oninput="update_figure_exploded()">
+  </td>
+  </tr>
+ 
+<tr>
+</td><td style="padding-left: 1%;"><font size = 1>(change this to adjust the exploded view of the miCube)</font></td>
+    </tr>
+</table>
+<figcaption><strong>Exploded view of miCube: An interactive figure</strong></figcaption>
+</figure><p></p>
+</section>
+  -->
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
