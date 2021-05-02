@@ -1,4 +1,3 @@
 # combined-tirf-confocal-microscope
-hngffb 
-fegfgfrf
-gbfv
+
+In this repository we show you how to build a setup for combined tirf and confocal microscopy. 
