@@ -6,6 +6,7 @@ document.write('\
 		<li class="first"><a href="./component_table.html" target="_self">Component overview</a></li>\
 		<li class="first"><a href="./operating principle.html" target="_self">Operating principle</a></li>\
 		<li class="first"><a href="./people.html" target="_self">People involved</a></li>\
+		<li class="first"><a href="./test.html" target="_self">Test</a></li>\
 		<div style="padding-top:10px;"></div><hr style=" margin: 0.1em auto;"><div style="padding-top:10px;"></div>\
 		<font style="line-height:1.5em;">\
 </font>\
