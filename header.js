@@ -1,7 +1,7 @@
 document.write('\
 <h1 class="header">#combined tirf/ confocal fluorescence microscopy</h1>\
         <ul>\
-		<li class="first"><a href="./index.html" target="_self">Main page</a></li>\
+		<li class="first"><a href="./index.html" target="_self">Main Page</a></li>\
 		<li class="first"><a href="./manuscript.pdf" target="_self">manuscript</a></li>\
 		<li class="first"><a href="./component_table.html" target="_self">Component overview</a></li>\
 		<li class="first"><a href="./operating principle.html" target="_self">Operating principle</a></li>\
